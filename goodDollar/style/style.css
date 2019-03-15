@@ -1,0 +1,21 @@
+.good_dollar_donation_class{
+    font-weight: bold;
+    background-color: #0c253e;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.good_dollar_donation_class a{
+    color: white;
+}
+.good_dollar_donation_class a:hover{
+    color: #00b247;
+}
+.good_dollar_donation_thank_you_class, .good_dollar_donation_false{
+    display: none;
+}
+.underlineText{
+    text-decoration: underline;
+}
