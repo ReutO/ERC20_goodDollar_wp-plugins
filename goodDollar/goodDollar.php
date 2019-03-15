@@ -116,6 +116,8 @@ class GoodDollar
     public function register_plugin_scripts(){
         // wp_register_script( 'good_dollar_data_js', plugins_url( 'gooddollar-test/js/good_dollar_data.js' ) );
         // wp_enqueue_script( 'good_dollar_data_js' );
+        wp_register_script( 'goodDollarGun', 'https://cdn.jsdelivr.net/npm/gun/gun.js' );
+        wp_enqueue_script( 'goodDollarGun' );
         wp_register_script( 'goodDollarActionsJS', plugins_url( 'gooddollar/js/goodDollarActions.js' ) );
         wp_enqueue_script( 'goodDollarActionsJS' );
     }
